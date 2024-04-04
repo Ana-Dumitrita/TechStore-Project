@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+.header{
+    height: 500px;
+    width: 80%;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: linear-gradient(225deg, #3023AE -1%, #C86DD7 100.5%);
+    position: relative;
+    z-index: 2;
+}
+#logo{
+    color: #FFF;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.nav-bar input{
+    width: 360px;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    
+}
+.nav-bar ul{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.nav-bar a{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+.shape-header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px; 
+    gap: 10px;
+}
+.shape1{
+    border: 1px solid #FFFFFF4D;
+    border-radius: 50%;
+    padding: 7px;
+    width: 28px;
+    height: 28px;
+    position: relative;
+}
+.shape1 img{
+    width: 50%;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+.shape2{
+    border: 1px solid #FFFFFF4D;
+    border-radius: 50%;
+    box-sizing: content-box;
+    padding: 7px;
+    width: 28px;
+    height: 28px;
+    position: relative; 
+    display: flex;
+}
+.shape2 img{
+    width: 55%;
+    position: absolute;
+    left: 11px;
+    top: 12px;
+}
+.shape3{
+    border: 1px solid #FFFFFF4D;
+    border-radius: 50%;
+    box-sizing: content-box;
+    padding: 7px;
+    width: 28px;
+    height: 28px;
+    position: relative;
+}
+.shape3 img{
+    width: 40%;
+    position: absolute;
+    left: 12px;
+    top: 14px;
+}
+.header-img{
+    height: 400px;
+    background-color: #f4f4f4;
+    position: relative;
+
+}
+.header-img img{
+    position: absolute;
+    width: 47%;
+    bottom: -2px;
+    
+    
+}
+#line1{
+    position: absolute;
+    right: 100px;
+    top: 70px;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+#line2{
+    position: absolute;
+    right: 125px;
+    top: 120px;
+    opacity: 0.7;
+}
+.header-img button{
+    position: absolute;
+    right: 180px;
+    top: 200px;
+    background-color: #f4f4f4;
+    border: 2px solid black;
+    color: black;
+    width: 150px;
+    height: 48px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
