@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <h4  id="logo">TechStore</h4>
+            <input type="search" placeholder="Search">
+            <ul>
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./products.html">Products</a>
+                <a href="./news.html">News</a>
+                <a href="./contactUs.html">Contact Us</a>
+            </ul>
+            <div class="shape-header">
+                <div class="shape1">
+                    <img src="./pictures/heade-Shape1.png" alt="">
+                </div>
+                <div class="shape2">
+                    <img src="./pictures/header-Shape2.png" alt="">
+                </div>
+                <div class="shape3">
+                    <img src="./pictures/header-Shape3.png" alt="">
+                </div>
+            </div>
+        </div>
+            <main class="pageContact">
+                <div class="contactUs">
+                    <h1>Contact Us</h1>
+                    <p>Feel free to contact us any time.We will get back to you as soon as we can.</p>
+                    <form action="/submit-form" method="post">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="message">Message:</label><br>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="submit">Submit</button>
+                </div>
+                <ul class="info-list">
+                    <h2>Info</h2>
+                    <li><img src="./pictures/mail.png" alt="">
+                        <span>techstore@gmail.com</span>
+                    </li>
+                    <li>
+                        <img src="./pictures/phone.png" alt="">
+                        <span>+373 698 755 </span>
+                    </li>
+                    <li>
+                        <img src="./pictures/location.png" alt="">
+                        <span>bd.Dacia 17/1</span>
+                    </li>
+                    <li>
+                        <img src="./pictures/hours.png" alt="">
+                        <span>8:00 - 18:00</span>
+                    </li>
+                </ul>
+            </main>
+        </div>
+    </header>
+    
+</body>
+</html>
