@@ -257,20 +257,27 @@ input, textarea {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 20px;
-    align-items: center;
-
+    margin-top: 30px;
 }
 .box-list{
     grid-row-start: 1;
-    grid-row-end: 3;
     margin-left: 20px;
+    list-style-type: none;
+    justify-self: center;
+}
+.box-list a{
+    text-decoration: none;
+    color: black;  
+}
+.box-list a:hover{
+    opacity: 0.5;
 }
 .box-product1{
     height: 150px;
     font-weight: 180px;
     background-color: #DADADA;
     border: 1px solid black;
-    /* justify-self: center; */
+    /* justify-self: start; */
 }
 .box-product2{
     height: 150px;
